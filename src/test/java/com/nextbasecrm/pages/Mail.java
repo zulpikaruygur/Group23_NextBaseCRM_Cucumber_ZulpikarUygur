@@ -5,7 +5,14 @@ import org.openqa.selenium.support.FindBy;
 
 public class Mail {
 
-    //logout from dropdown menu
-    @FindBy(linkText = "Log out")
-    public WebElement logOut;
+
+  //logout from dropdown menu
+  @FindBy(linkText = "Log out")
+  public WebElement logOut;
+
+	//account username
+	@FindBy(id = "user-name")
+	public WebElement userName;
+
+
 }
