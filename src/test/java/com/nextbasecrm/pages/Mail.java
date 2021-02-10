@@ -9,4 +9,8 @@ public class Mail {
 	@FindBy(id = "user-name")
 	public WebElement userName;
 
+	//Site Map Menu on the top left
+	@FindBy(css = "#sitemap-menu")
+	public WebElement dropdownMenuNextToLogo;
+
 }
