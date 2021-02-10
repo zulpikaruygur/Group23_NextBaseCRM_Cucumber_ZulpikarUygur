@@ -13,6 +13,7 @@ public class Mail {
 	@FindBy(css = "#sitemap-menu")
 	public WebElement dropdownMenuNextToLogo;
 
+	// from yakup
 	//------Dropdown menu elements when we click "dropdown Menu Next To Logo------
 	//My Workspace from the "dropdown Menu Next To Logo"
 	@FindBy(xpath = "//a[contains(text(), 'My Workspace')]")
