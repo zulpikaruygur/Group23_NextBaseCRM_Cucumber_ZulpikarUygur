@@ -17,7 +17,7 @@ public class Workgroups extends BasePage {
     @FindBy (css = "input#SONET_GROUP_LIST_search")
     public WebElement searchBar;
 
-    // search icon ++
+    // search icon +++
     @FindBy(css = "span.main-ui-item-icon.main-ui-search")
     public WebElement searchIcon;
 
